@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+*{margin:0;padding:0;box-sizing:border-box;
+}
+html body{font-size:14px;font-family:"Microsoft YaHei";color:#333;background-color:#fff;
+}
+a{color:#333;text-decoration:none;
+}
+a:hover{color:#333;text-decoration:underline;
+}
+
+.container{float:left;width:100%;
+}
+
+.header{float:left;width:100%;height:110px;color:#333;
+}
+.header a{color:#333;
+}
+.header ul{width:1000px;height:110px;margin:0 auto;overflow:hidden;list-style:none;
+}
+.header ul li.logo{float:left;width:300px;height:110px;line-height:110px;
+}
+.header ul li.logo img{float:left;height:40px;margin:34px 10px 0 0;
+}
+.header ul li.logo span{float:left;width:200px;font-size:34px;
+}
+.header ul li.find{float:right;width:200px;height:30px;line-height:26px;margin-top:44px;padding-right:10px;color:#333;text-align:right;border:1px solid #8f9095;border-radius:6px;
+}
+
+.nav{float:left;width:100%;height:40px;border-top:1px solid #8f9095;border-bottom:1px solid #8f9095;
+}
+.nav ul{width:1000px;height:40px;margin:0 auto;overflow:hidden;list-style:none;
+}
+.nav ul li{float:left;height:40px;line-height:38px;margin-right:80px;
+}
+.nav ul li:nth-last-child(1){margin:0;
+}
+
+.focus{float:left;position:relative;width:100%;
+}
+.focus_image{float:left;width:100%;list-style:none;
+}
+.focus_image li{float:left;width:100%;display:none;
+}
+.focus_image li.now{display:block;
+}
+.focus_image li img{float:left;width:100%;
+}
+.focus_button{position:absolute;width:100px;height:25px;right:46%;bottom:15px;list-style:none;
+}
+.focus_button li{float:left;width:30px;height:6px;margin-left:10px;background-color:#fff;
+}
+.focus_button li.on{background-color:#333;
+}
+
+.wrapper{float:left;width:100%;
+}
+
+.main{width:1040px;margin:0 auto;overflow:hidden;
+}
+
+.sort{float:left;width:1040px;
+}
+.sort a{float:left;width:125px;height:35px;line-height:33px;margin:40px 0 0 20px;text-align:center;border:1px solid #8f9095;border-radius:6px;
+}
+
+.title{float:left;width:1000px;height:55px;line-height:52px;margin:50px 0 0 20px;font-size:18px;text-align:center;background-image:url(../images/title.jpg);background-repeat:no-repeat;
+}
+
+.list{float:left;width:320px;margin:30px 0 0 20px;
+}
+.list img{float:left;width:320px;height:320px;
+}
+.list h3{float:left;width:320px;height:35px;line-height:35px;margin-top:5px;font-size:16px;
+}
+.list b{float:left;width:200px;height:35px;line-height:35px;font-size:16px;color:#c00;
+}
+.list p{float:left;width:120px;height:35px;line-height:35px;font-weight:bold;color:#8b8b8b;text-align:right;
+}
+
+.banner{float:left;width:1000px;margin:20px 0 0 20px;
+}
+.banner img{float:left;width:1000px;
+}
+
+.info{float:left;width:1000px;height:55px;line-height:52px;margin:30px 0 0 20px;font-size:18px;text-align:center;background-image:url(../images/title.jpg);background-repeat:no-repeat;
+}
+
+.baby{float:left;width:490px;margin:30px 0 0 20px;
+}
+.baby img{float:left;width:490px;height:490px;
+}
+.baby h3{float:left;width:490px;height:35px;line-height:35px;margin-top:15px;font-size:20px;
+}
+.baby b{float:left;width:290px;height:30px;line-height:30px;margin-top:10px;font-size:18px;color:#c00;
+}
+.baby p{float:right;width:200px;height:30px;line-height:30px;margin-top:10px;font-size:16px;font-weight:bold;text-align:right;
+}
+
+.into{float:left;width:1000px;min-height:500px;margin:30px 0 0 20px;padding:100px 0 140px 0;border:1px solid #8f9095;border-radius:6px;
+}
+.into p{float:left;width:990px;height:66px;
+}
+.into p span{float:left;width:330px;height:65px;line-height:65px;text-align:right;
+}
+.into p input{float:left;width:330px;height:35px;margin:15px 0 0 20px;
+}
+.into p input.submit{color:#fff;letter-spacing:3px;background-color:#8f9095;border:0;
+}
+
+.sell{float:left;width:100%;margin-top:30px;padding-bottom:30px;border-top:1px solid #8f9095;border-bottom:1px solid #8f9095;
+}
+.sell ul{width:1040px;margin:0 auto;overflow:hidden;list-style:none;
+}
+.sell ul li{float:left;width:235px;margin:30px 0 0 20px;
+}
+.sell ul li b{float:left;width:235px;height:30px;line-height:30px;
+}
+.sell ul li p{float:left;width:235px;line-height:22px;margin-top:5px;font-size:12px;
+}
+
+.footer{float:left;width:100%;height:100px;line-height:100px;text-align:center;
+}
